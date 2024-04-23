@@ -9,3 +9,6 @@
     text-wrap: balance;
   }
 }
+.thumbs-wrapper {
+  display: none;
+}
