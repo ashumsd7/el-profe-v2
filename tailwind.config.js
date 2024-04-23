@@ -7,21 +7,16 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
     },
 
-   
-    // fontFamily: {
-    //   sans: ['Graphik', 'sans-serif'],
-    //   serif: ['Merriweather', 'serif'],
-    // },
-  
     extend: {
       colors: {
         primary: {
+          50: "#f5f3ef",
           100: "#f5f3ef",
           200: "#e2dccf",
           300: "#cfc5b0",
@@ -34,6 +29,7 @@ module.exports = {
           950: "#100e0a",
         },
         secondary: {
+          50: "#f5f3ef",
           100: "#f2f2f2",
           200: "#d9d9d9",
           300: "#bfbfbf",
@@ -46,6 +42,7 @@ module.exports = {
           950: "#0d0d0d",
         },
         yellow: {
+          50: "#f5f3ef",
           100: "#f9f2eb",
           200: "#eed7c3",
           300: "#e3bc9b",
@@ -57,28 +54,24 @@ module.exports = {
           900: "#3c2411",
           950: "#140c06",
         },
-        'blue': '#1fb6ff',
-        'purple': '#7e5bef',
-        'pink': '#ff49db',
-        'orange': '#ff7849',
-        'green': '#13ce66',
-        'gray-dark': '#273444',
-        'gray': '#8492a6',
-        'gray-light': '#d3dce6',
+        blue: "#1fb6ff",
+        purple: "#7e5bef",
+        pink: "#ff49db",
+        orange: "#ff7849",
+        green: "#13ce66",
+        gray: "#8492a6",
       },
       fontFamily: {
         sans: ["Montserrat", "Inter var"],
       },
       spacing: {
-        '128': '32rem',
-        '144': '36rem',
+        128: "32rem",
+        144: "36rem",
       },
       borderRadius: {
-        '4xl': '2rem',
-      }
-    }
+        "4xl": "2rem",
+      },
+    },
   },
-  plugins: [
-    
-  ],
+  plugins: [],
 };

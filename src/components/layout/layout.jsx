@@ -6,7 +6,7 @@ function Layout(props) {
   return (
     <section className="">
       <Navbar />
-      <main className="h-[85vh] overflow-scroll ">{props.children}</main>
+      <main className="mx-2">{props.children}</main>
       <Footer />
     </section>
   );
