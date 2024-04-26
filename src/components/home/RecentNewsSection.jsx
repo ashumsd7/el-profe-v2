@@ -22,7 +22,7 @@ function RecentNewsSection() {
           }}
         >
           <div className="mb-4" />
-          {[1, 2, 2, 3, 4, 5, 5, 6].map((item) => {
+          {[1, 2, 2, 36].map((item) => {
             return (
               <div
                 key={item}

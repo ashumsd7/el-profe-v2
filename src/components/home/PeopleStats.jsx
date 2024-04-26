@@ -10,7 +10,7 @@ import Divider from "../base/Divider";
 function PeopleStats() {
   return (
     <>
-      <div className="grid md:grid-cols-3 lg:grid-cols-6 sm:grid-cols-2 grid-cols-1 -mx-2 justify-center items-center py-4 gap-10  ">
+      <div className="grid md:grid-cols-3 lg:grid-cols-6 sm:grid-cols-2 grid-cols-1 -mx-2 justify-center items-center py-4 md:px-10 px-2 gap-10  ">
         <div className="flex flex-col gap-2   items-center justify-center text-4xl">
           <div className="flex gap-2 items-center">
             <HomeIcon className="text-primary-800 text-6xl" />
