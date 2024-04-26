@@ -13,8 +13,7 @@ export default function Home() {
   return (
     <main className="">
       <FirstPage />
-      <ShortNews />
-      <PeopleStats />
+
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4  ">
         <RecentNewsSection />
         <QuickLinkSections />
@@ -25,6 +24,8 @@ export default function Home() {
         <NavDrugapoojaSamiti />
         <CharawanCrcketClub />
       </div>
+      {/* <ShortNews /> */}
+      <PeopleStats />
 
       {/* <About /> */}
     </main>

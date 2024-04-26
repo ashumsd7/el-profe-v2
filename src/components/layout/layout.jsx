@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 function Layout(props) {
   return (
-    <section className="">
+    <section className="relative">
       <Navbar />
       <main className="mx-2">{props.children}</main>
       <Footer />

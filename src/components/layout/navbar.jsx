@@ -16,7 +16,7 @@ function Navbar() {
         />
       </nav>
       <Divider />
-      <nav className="lg:px-10 px-4 py-2  md:flex hidden flex flex-wrap  justify-between bg-primary-500 ">
+      <nav className="lg:px-10 px-4 py-2  md:flex hidden  flex-wrap  justify-between bg-black fix ">
         <div className="flex md:gap-8 gap-4 flex-wrap">
           <LinkButton> दुकानें</LinkButton>
           <LinkButton> इतिहास </LinkButton>
