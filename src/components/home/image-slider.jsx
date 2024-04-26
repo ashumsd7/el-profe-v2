@@ -6,7 +6,7 @@ import { photos } from "./photos";
 function ImageSlider() {
   return (
     <>
-      <div className="h-[70vh] overflow-scroll  border-4 -mt-1 -mx-2 border-primary-800 border-b-0">
+      <div className="h-[70vh] overflow-scroll  border-4 -mt-1 -mx-2 border-primary-500 border-b-0">
         <Gallery photos={photos} direction={"column"} />
       </div>
     </>

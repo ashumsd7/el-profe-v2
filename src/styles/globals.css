@@ -25,3 +25,9 @@ body {
 }
 
 
+.bg-home-page{
+  background-image: url('https://img.freepik.com/premium-photo/soft-elegance-cotton-color-gradient-defocused-blurred-motion_957479-42045.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
+}
+

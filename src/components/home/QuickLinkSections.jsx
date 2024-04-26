@@ -12,7 +12,7 @@ function QuickLinkSections() {
   return (
     <section className="  ">
       <div className="-mx-2 ">
-        <h2 className="text-center font-bolder text-primary-200 text-2xl  font-serif bg-secondary-800  py-2">
+        <h2 className="text-center font-extrabold text-primary-100 text-2xl  font-serif bg-primary-500  py-2">
           महत्वपूर्ण लिंक
         </h2>
         <div

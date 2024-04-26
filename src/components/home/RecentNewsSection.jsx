@@ -11,7 +11,7 @@ function RecentNewsSection() {
   return (
     <section className="">
       <div className="-mx-2 ">
-        <h2 className="text-center font-bolder border-r-4 border-yellow-500  text-primary-200 text-2xl  font-serif bg-secondary-800  py-2">
+        <h2 className="text-center font-extrabold text-primary-100  border-r-4 border-yellow-500   text-2xl  font-serif bg-primary-500  py-2">
           चरावां : नोटिफिकेशन
         </h2>
         <div

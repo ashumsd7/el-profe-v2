@@ -7,12 +7,12 @@ function CharawanRepresentatives() {
   return (
     <section className="my-4  ">
       <div className="-mx-2 ">
-        <h2 className="text-center font-bolder text-primary-200 text-2xl  font-serif bg-secondary-800  py-2">
+        <h2 className="text-center font-bolder text-primary-100 text-2xl  font-serif bg-primary-500  py-2">
           चरावां के प्रतिनिधि
         </h2>
 
         <div className="md:grid-cols-3 grid grid-cols-1">
-          <div className="shadow-md px-4 py-2 flex flex-col gap-2 items-center justify-center">
+          <div className="shadow-md px-4 py-2 flex flex-col gap-2 items-center justify-center bg-home-page">
             {/* photo */}
             <div>
               <Image
@@ -26,17 +26,24 @@ function CharawanRepresentatives() {
             {/* name */}
             <h2 className="text-2xl flex items-center gap-1  font-bold text-yellow-500 ">
               अनिल कुमार{" "}
-              <span className="text-xl  font-bold text-secondary-600 ">
+              <span className="text-base  font-bold text-secondary-500 ">
                 ( ग्राम प्रधान चरावां)
               </span>
             </h2>
+            <p className="text-center md:w-2/3 w-full text-primary-900 font-mono">
+              आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया टुडे
+              ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे जाने
+              वाले आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया
+              टुडे ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे
+              जाने वाले
+            </p>
 
             <Button>
               <CallIcon className="text-primary-50 text-xl" />
               फोन करें
             </Button>
           </div>
-          <div className="shadow-md  px-4 py-2 flex flex-col gap-2 items-center justify-center">
+          <div className="shadow-md  px-4 py-2 flex flex-col gap-2 items-center justify-center bg-home-page">
             {/* photo */}
             <div>
               <Image
@@ -50,17 +57,24 @@ function CharawanRepresentatives() {
             {/* name */}
             <h2 className="text-2xl flex items-center gap-1  font-bold text-yellow-500 ">
               अनीस तिवारी{" "}
-              <span className="text-xl  font-bold text-secondary-600 ">
+              <span className="text-base  font-bold text-secondary-500 ">
                 ( बी डी सी चरावां)
               </span>
             </h2>
+            <p className="text-center  md:w-2/3 w-full text-primary-900 font-mono">
+              आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया टुडे
+              ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे जाने
+              वाले आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया
+              टुडे ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे
+              जाने वाले
+            </p>
 
             <Button>
               <CallIcon className="text-primary-50 text-xl" />
               फोन करें
             </Button>
           </div>
-          <div className="shadow-md px-4 py-2 flex flex-col gap-2 items-center justify-center">
+          <div className="shadow-md px-4 py-2 flex flex-col gap-2 items-center justify-center bg-home-page">
             {/* photo */}
             <div>
               <Image
@@ -74,7 +88,7 @@ function CharawanRepresentatives() {
             {/* name */}
             <h2 className="text-2xl flex items-center gap-1  font-bold text-yellow-500 ">
               अमित मौर्या{" "}
-              <span className="text-xl  font-bold text-secondary-600 ">
+              <span className="text-base  font-bold text-secondary-500 ">
                 (कोटेदार चरावां)
               </span>
             </h2>
@@ -82,6 +96,13 @@ function CharawanRepresentatives() {
             {/* post */}
 
             {/* about   */}
+            <p className="text-center  md:w-2/3 w-full text-primary-900 font-mono">
+              आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया टुडे
+              ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे जाने
+              वाले आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया
+              टुडे ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे
+              जाने वाले
+            </p>
             {/* contact */}
             <Button>
               <CallIcon className="text-primary-50 text-xl" />
