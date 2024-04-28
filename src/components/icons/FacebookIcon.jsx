@@ -1,9 +1,9 @@
 import React from "react";
 
-function FacebookIcon({ children }) {
+function FacebookIcon({ className }) {
   return (
     <svg
-      className={children}
+      className={className}
       xmlns="http://www.w3.org/2000/svg"
       width="1em"
       height="1em"

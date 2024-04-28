@@ -1,10 +1,15 @@
 import React from "react";
 import LinkButton from "../base/LinkButton";
+import HomeIcon from "../icons/HomeIcon";
+import InstagramIcon from "../icons/InstagramIcon";
+import FacebookIcon from "../icons/FacebookIcon";
+import WhatsappIcon from "../icons/WhatsappIcon";
+import AndroidApkIcon from "../icons/AndroidApkIcon";
 
 function FooterLinksAndAbout() {
   return (
     <div className="flex flex-col gap-2 m-auto  my-4 bg-home-page bg-primary-500">
-      <h1 className="text-4xl font-semibold text-center text-yellow-800">
+      <h1 className="text-5xl font-semibold text-center text-yellow-800">
         मेरा चरावां
       </h1>
       <p className="text-center px-10 text-xl font-serif tracking-wide">
@@ -28,6 +33,12 @@ function FooterLinksAndAbout() {
         जी सम्हाल रहे हैं चरावां एक चौराहा है जिसके चार रास्ते क्रमशः रामपुर भगन
         बीकापुर धर्मगंज और जानेबाज़ार को जोड़ते है |
       </p>
+      <div className="flex justify-center my-2 gap-4">
+        <InstagramIcon className="text-3xl" />
+        <FacebookIcon className="text-3xl" />
+        <WhatsappIcon className="text-3xl" />
+        <AndroidApkIcon className="text-3xl" />
+      </div>
     </div>
   );
 }

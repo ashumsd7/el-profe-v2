@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Divider from "../base/Divider";
 import LinkButton from "../base/LinkButton";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -18,7 +19,9 @@ function Navbar() {
       <Divider />
       <nav className="lg:px-10 px-4 py-2  md:flex hidden  flex-wrap  justify-between bg-black fix ">
         <div className="flex md:gap-8 gap-4 flex-wrap">
-          <LinkButton> दुकानें</LinkButton>
+          <Link href="/shops">
+            <LinkButton> दुकानें</LinkButton>
+          </Link>
           <LinkButton> इतिहास </LinkButton>
           <LinkButton> गैलरी </LinkButton>
           <LinkButton> क्रिकेट </LinkButton>
