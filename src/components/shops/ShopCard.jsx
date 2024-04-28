@@ -12,7 +12,7 @@ import Image from "next/image";
 function ShopCard({ data }) {
   const [isShowingInfo, setIsShowingInfo] = useState(false);
   return (
-    <div className="bg-white flex-col gap-2 mt-16 rounded-lg shadow-md py-2 flex justify-center  items-center px-4 relative mx-auto min-h-36 min-w-[300px] max-w-[320px] ">
+    <div className="bg-white flex-col gap-2 mt-16 rounded-lg shadow-md py-2 flex justify-center  items-center px-4 relative mx-auto min-h-36 min-w-[340px] md:max-w-[360px]  ">
       <div className="absolute  top-[-40px] rounded-full h-24 w-24 overflow-hidden">
         <Image
           src={data.ownerPhoto}
