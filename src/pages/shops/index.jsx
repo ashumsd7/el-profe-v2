@@ -16,7 +16,7 @@ function ShopsPage({ shops }) {
       </div>
       {/*  Cards */}
       <div className="w-full bg-[#EAEAEA]">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[50px] mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[50px] mb-10 mx-4">
           {filteredShops?.reverse().map((data) => {
             return <ShopCard data={data} />;
           })}

@@ -8,11 +8,12 @@ import MapIcon from "../icons/MapIcon";
 import WebSiteIcon from "../icons/WebSiteIcon";
 import ShareIcon from "../icons/ShareIcon";
 import Image from "next/image";
+import { getShopTitleByTags } from "@/utils/constant";
 
 function ShopCard({ data }) {
   const [isShowingInfo, setIsShowingInfo] = useState(false);
   return (
-    <div className="bg-white flex-col gap-2 mt-16 rounded-lg shadow-md py-2 flex justify-center  items-center px-4 relative mx-auto min-h-36 min-w-[340px] md:max-w-[360px]  ">
+    <div className="bg-white flex-col gap-2 mt-16 rounded-lg shadow-md py-2 flex justify-center  items-center px-4 relative mx-auto min-h-36 min-w-[330px] md:max-w-[340px]  ">
       <div className="absolute  top-[-40px] rounded-full h-24 w-24 overflow-hidden">
         <Image
           src={data.ownerPhoto}
@@ -29,15 +30,15 @@ function ShopCard({ data }) {
         <h3 className="text-xl font-semibold">{data.shopName}</h3>
       </div>
       {/* tags */}
-      {/* <div className="flex gap-2 flex-wrap justify-center">
-        {data?.shopType?.map((type) => {
+      <div className="flex gap-2 flex-wrap justify-center">
+        {getShopTitleByTags(data?.shopType)?.map((type) => {
           return (
-            <span className="px-2 py-[.5px] text-xs border rounded-md border-yellow-100  bg-primary-100 text-black">
+            <span className="px-2 py-[.5px] text-xs border rounded-md text-yellow-50 border-yellow-100  bg-primary-900 text-black">
               {type}
             </span>
           );
         })}
-      </div> */}
+      </div>
       {/* location */}
       {data?.villageName ||
         (data?.shopAddress && (
@@ -83,21 +84,21 @@ function ShopCard({ data }) {
         </div>
       )}
       <div className="flex gap-2">
-        {data?.mobileNumber && (
+        {data?.mobileNumber != "tel:+91" && (
           <Button mo={data?.mobileNumber}>
             <a
               class="text-decoration-none text-white flex items-center"
-              href={`tel:+91${data?.mobileNumber}`}
+              href={data?.mobileNumber}
             >
               <CallIcon /> फ़ोन करें
             </a>
           </Button>
         )}
-        {data?.mobileNumber2 && (
+        {data?.mobileNumber2 !== "tel:+91" && (
           <Button>
             <a
               class="text-decoration-none text-white flex items-center"
-              href={`tel:+91${data?.mobileNumber2}`}
+              href={data?.mobileNumber2}
             >
               <CallIcon /> फ़ोन करें
             </a>
