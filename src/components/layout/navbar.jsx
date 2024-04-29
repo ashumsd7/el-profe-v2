@@ -22,7 +22,7 @@ function Navbar() {
       </nav>
       <nav></nav>
       <Divider />
-      <nav className="lg:px-10 px-4 py-2  md:flex hidden  flex-wrap  justify-between bg-yellow-300 fix ">
+      <nav className="lg:px-10 px-4 py-2   flex-wrap  justify-between bg-yellow-300 fix ">
         <marquee>
           <p className="text-black font-mono tracking-widest">
             || हमने अस्थायी रूप से वेबसाइट काम को वित्तीय संकट के कारण बंद कर
