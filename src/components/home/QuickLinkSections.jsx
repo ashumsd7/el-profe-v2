@@ -9,6 +9,30 @@ import Image from "next/image";
 import Link from "next/link";
 
 function QuickLinkSections() {
+  const staticLinksData = [
+    {
+      title: "कोरोना की वैक्सीन 💉 के लिए रजिस्ट्रेशन करें  ",
+      link: "https://www.cowin.gov.in/",
+    },
+    // {title:'बीकापुर हैडिल KLK फीडर लाइट 💡  की जानकरी के लिए टेलीग्राम ग्रुप से जुड़ें', link:''},
+    {
+      title:
+        "वेबसाइट सम्ब्नधित जानकारी और फीडबैक के लिए के लिए वेबसाइट हेल्प डेस्क से जुड़ें  ",
+      link: "https://chat.whatsapp.com/LgCz9l1tWQKKJe6OQ5n8Zt",
+    },
+    {
+      title: "चरावां के ओफिसिअल व्हाट्सप्प ग्रुप से जुड़ें",
+      link: "https://chat.whatsapp.com/EgAW295Pr2i6fQWPBlr98I",
+    },
+    {
+      title: "सरकारी नौकरी की जानकरी के लिए वेबसाइट देखें ",
+      link: "https://www.sarkariresult.com/",
+    },
+    {
+      title: "जनसुनवाई-समाधानपोर्टल पर अपनी शिकयत दर्ज़ करें ",
+      link: "http://jansunwai.up.nic.in/",
+    },
+  ];
   return (
     <section className="  ">
       <div className="-mx-2 ">
@@ -23,10 +47,10 @@ function QuickLinkSections() {
           }}
         >
           <div className="mb-4" />
-          {[1, 2, 2, 3, 4, 5, 5, 6].map((item) => {
+          {staticLinksData?.map((item) => {
             return (
               <div
-                key={item}
+                key={item.title}
                 className="flex  align-center px-6  border-b border-yellow-100"
               >
                 {/* image + time + name */}
@@ -52,10 +76,10 @@ function QuickLinkSections() {
                     <TimeIcon /> 2hrs pahle
                   </div> */}
                   <Link
-                    href={"/"}
+                    href={item.link}
                     className="text-base cursor-pointer text-[#0000EE] underline font-bold tracking-wide "
                   >
-                    व्हाट्सप्प ग्रुप जॉइन करें
+                    {item.title}
                   </Link>
                 </div>
               </div>

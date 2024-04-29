@@ -30,13 +30,13 @@ function CharawanRepresentatives() {
                 ( ग्राम प्रधान चरावां)
               </span>
             </h2>
-            <p className="text-center md:w-2/3 w-full text-primary-900 font-mono">
+            {/* <p className="text-center md:w-2/3 w-full text-primary-900 font-mono">
               आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया टुडे
               ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे जाने
               वाले आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया
               टुडे ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे
               जाने वाले
-            </p>
+            </p> */}
 
             <Button>
               <CallIcon className="text-primary-50 text-xl" />
@@ -61,13 +61,13 @@ function CharawanRepresentatives() {
                 ( बी डी सी चरावां)
               </span>
             </h2>
-            <p className="text-center  md:w-2/3 w-full text-primary-900 font-mono">
+            {/* <p className="text-center  md:w-2/3 w-full text-primary-900 font-mono">
               आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया टुडे
               ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे जाने
               वाले आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया
               टुडे ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे
               जाने वाले
-            </p>
+            </p> */}
 
             <Button>
               <CallIcon className="text-primary-50 text-xl" />
@@ -96,13 +96,13 @@ function CharawanRepresentatives() {
             {/* post */}
 
             {/* about   */}
-            <p className="text-center  md:w-2/3 w-full text-primary-900 font-mono">
+            {/* <p className="text-center  md:w-2/3 w-full text-primary-900 font-mono">
               आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया टुडे
               ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे जाने
               वाले आज तक एक हिन्दी समाचार टी वी चैनल है। इसका स्वामित्व इण्डिया
               टुडे ग्रुप नेटवर्क लिमिटेड के पास है। आज तक भारत के सर्वाधिक देखे
               जाने वाले
-            </p>
+            </p> */}
             {/* contact */}
             <Button>
               <CallIcon className="text-primary-50 text-xl" />
