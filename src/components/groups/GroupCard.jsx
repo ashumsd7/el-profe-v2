@@ -42,7 +42,7 @@ function GroupCard({ data }) {
         <Button mo={data?.mobileNumber}>
           <a
             class="text-decoration-none text-white flex items-center"
-            href={data?.groupLink}
+            href={data?.link}
           >
             ग्रुप से जुड़ें
           </a>
