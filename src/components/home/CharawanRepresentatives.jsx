@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import Button from "../base/Button";
 import CallIcon from "../icons/CallIcon";
+import Link from "next/link";
 
 function CharawanRepresentatives() {
+  const PRADHAN_NUMBER = "tel:+919839018844";
+  const KOTEDAR_NUMBER = "tel:+919628771123";
   return (
     <section className="my-4  ">
       <div className="-mx-2 ">
@@ -38,10 +41,12 @@ function CharawanRepresentatives() {
               जाने वाले
             </p> */}
 
-            <Button>
-              <CallIcon className="text-primary-50 text-xl" />
-              फोन करें
-            </Button>
+            <Link href={PRADHAN_NUMBER}>
+              <Button>
+                <CallIcon className="text-primary-50 text-xl" />
+                फोन करें
+              </Button>
+            </Link>
           </div>
           <div className="shadow-md  px-4 py-2 flex flex-col gap-2 items-center justify-center bg-home-page">
             {/* photo */}
@@ -69,7 +74,7 @@ function CharawanRepresentatives() {
               जाने वाले
             </p> */}
 
-            <Button>
+            <Button disabled>
               <CallIcon className="text-primary-50 text-xl" />
               फोन करें
             </Button>
@@ -104,10 +109,12 @@ function CharawanRepresentatives() {
               जाने वाले
             </p> */}
             {/* contact */}
-            <Button>
-              <CallIcon className="text-primary-50 text-xl" />
-              फोन करें
-            </Button>
+            <Link href={KOTEDAR_NUMBER}>
+              <Button>
+                <CallIcon className="text-primary-50 text-xl" />
+                फोन करें
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

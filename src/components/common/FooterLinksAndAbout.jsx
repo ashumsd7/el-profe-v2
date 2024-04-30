@@ -5,6 +5,7 @@ import InstagramIcon from "../icons/InstagramIcon";
 import FacebookIcon from "../icons/FacebookIcon";
 import WhatsappIcon from "../icons/WhatsappIcon";
 import AndroidApkIcon from "../icons/AndroidApkIcon";
+import Link from "next/link";
 
 function FooterLinksAndAbout() {
   return (
@@ -34,10 +35,25 @@ function FooterLinksAndAbout() {
         बीकापुर धर्मगंज और जानेबाज़ार को जोड़ते है |
       </p>
       <div className="flex justify-center my-2 gap-4">
-        <InstagramIcon className="text-3xl" />
-        <FacebookIcon className="text-3xl" />
-        <WhatsappIcon className="text-3xl" />
-        <AndroidApkIcon className="text-3xl" />
+        {/* https://twitter.com/meracharawan */}
+        <Link target="_blank" href="https://instagram.com/meracharawan">
+          <InstagramIcon className="text-3xl" />
+        </Link>
+        <Link target="_blank" href="https://www.facebook.com/meracharawanfb">
+          <FacebookIcon className="text-3xl" />
+        </Link>
+        <Link
+          target="_blank"
+          href="https://chat.whatsapp.com/EQ3yOtIvQM88XxfFGf6Vcu"
+        >
+          <WhatsappIcon className="text-3xl" />
+        </Link>
+        <Link
+          target="_blank"
+          href="https://drive.google.com/file/d/1jMZus9iSCuFFzbjBknGxFMchE-_4mQC1/view?usp=sharing"
+        >
+          <AndroidApkIcon className="text-3xl" />
+        </Link>
       </div>
     </div>
   );

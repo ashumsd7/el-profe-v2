@@ -2,6 +2,7 @@ import React from "react";
 import ImageSlider from "./image-slider";
 import LinkButton from "../base/LinkButton";
 import Image from "next/image";
+import Link from "next/link";
 
 function NavDrugapoojaSamiti() {
   return (
@@ -11,18 +12,23 @@ function NavDrugapoojaSamiti() {
           श्री नव दुर्गा पूजा समिति
         </h2>
         {/* <ImageSlider /> */}
-        <div className="m-auto">
+        <div className="m-auto my-10">
           <Image
-            src="https://i.ibb.co/NsTWhh1/Mix-Collage-27-Apr-2024-12-12-AM-6092.jpg"
+            className="border rounded-md shadow-lg transition-opacity ease-in-out delay-150 border-yellow-200 overflow-hidden"
+            src="https://i.ibb.co/2PN4wWt/Screenshot-2024-04-30-at-3-39-25-PM.png"
             width="500"
             height="500"
           />
         </div>
       </div>
       <div className="flex justify-center my-2">
-        <LinkButton className="text-center mx-auto text-base text-primary-500 underline hover:text-primary-500 ">
+        <Link
+          href="/festivals"
+          className=" mx-auto text-base text-primary-500 underline
+          hover:text-primary-500"
+        >
           श्री नव दुर्गा पूजा समिति के बारे में और जानकारी
-        </LinkButton>
+        </Link>
       </div>
     </section>
   );

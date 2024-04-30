@@ -1,9 +1,8 @@
-import React from 'react'
+import PageBanner from "@/components/base/PageBanner";
+import React from "react";
 
 function CricketPage() {
-  return (
-    <div>CricketPage</div>
-  )
+  return <PageBanner name="चरावां क्रिकेट क्लब " />;
 }
 
-export default CricketPage
+export default CricketPage;
