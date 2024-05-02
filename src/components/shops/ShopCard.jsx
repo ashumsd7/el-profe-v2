@@ -25,10 +25,12 @@ function ShopCard({ data }) {
       </div>
 
       <div className="h-[50px]"></div>
+
       {/* name+ in charawan */}
       <div className="flex justify-between ">
         <h3 className="text-xl font-semibold">{data.shopName}</h3>
       </div>
+      {data?.owenerName && <h3 className="text-lg ">{data?.owenerName}</h3>}
       {/* tags */}
       <div className="flex gap-2 flex-wrap justify-center">
         {getShopTitleByTags(data?.shopType)?.map((type) => {
@@ -106,7 +108,7 @@ function ShopCard({ data }) {
         )}
       </div>
       <div className="border-b border-primary-100 w-full"></div>
-      <div className="flex justify-between w-full my-2 gap-4">
+      {/* <div className="flex justify-between w-full my-2 gap-4">
         <div className="flex gap-4">
           <InstagramIcon className="text-2xl" />
           <FacebookIcon className="text-2xl" />
@@ -115,7 +117,7 @@ function ShopCard({ data }) {
           <WebSiteIcon className="text-2xl" />
         </div>
         <ShareIcon className="text-2xl" />
-      </div>
+      </div> */}
     </div>
   );
 }
