@@ -37,7 +37,7 @@ function Jobs() {
             </h2>
 
             <h2 class="text-2xl font-extrabold text-gray-700 mb-4 underline text-blue">
-              <a href="tel:917800818001"> संपर्क करें:</a>
+              <a href="tel:918303723003"> संपर्क करें:</a>
             </h2>
           </div>
         </div>
